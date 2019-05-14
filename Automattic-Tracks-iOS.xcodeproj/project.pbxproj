@@ -54,15 +54,15 @@
 		F998F3DA22852CF0008C2B59 /* CrashLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3D922852CF0008C2B59 /* CrashLogging.swift */; };
 		F998F3DB22852CF0008C2B59 /* CrashLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3D922852CF0008C2B59 /* CrashLogging.swift */; };
 		F998F3DE22852E2A008C2B59 /* CrashLoggingDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */; };
-		F998F3E022852E43008C2B59 /* CrashLoggingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */; };
+		F998F3E022852E43008C2B59 /* TracksUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* TracksUser.swift */; };
 		F998F3E122852E55008C2B59 /* CrashLoggingDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */; };
-		F998F3E222852E57008C2B59 /* CrashLoggingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */; };
+		F998F3E222852E57008C2B59 /* TracksUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* TracksUser.swift */; };
 		F998F3E3228532B0008C2B59 /* CrashLogging.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3D922852CF0008C2B59 /* CrashLogging.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F998F3E4228532B0008C2B59 /* CrashLoggingDataProvider.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		F998F3E5228532B0008C2B59 /* CrashLoggingUser.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F998F3E5228532B0008C2B59 /* TracksUser.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* TracksUser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F998F3E622853313008C2B59 /* CrashLogging.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3D922852CF0008C2B59 /* CrashLogging.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F998F3E722853313008C2B59 /* CrashLoggingDataProvider.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		F998F3E822853313008C2B59 /* CrashLoggingUser.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F998F3E822853313008C2B59 /* TracksUser.swift in Headers */ = {isa = PBXBuildFile; fileRef = F998F3DF22852E43008C2B59 /* TracksUser.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A117B521E69B42002A5CD8 /* Automattic_Tracks_OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A117B321E69B42002A5CD8 /* Automattic_Tracks_OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A117B921E69B57002A5CD8 /* TracksLoggingPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B5C7671CE230AD002820B3 /* TracksLoggingPrivate.h */; };
 		F9A117BA21E69B5B002A5CD8 /* TracksLoggingPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5C7681CE230AD002820B3 /* TracksLoggingPrivate.m */; };
@@ -169,7 +169,7 @@
 		F978D1ED21AC972A00A2B169 /* WatchSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchSessionManager.m; sourceTree = "<group>"; };
 		F998F3D922852CF0008C2B59 /* CrashLogging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashLogging.swift; sourceTree = "<group>"; };
 		F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLoggingDataProvider.swift; sourceTree = "<group>"; };
-		F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLoggingUser.swift; sourceTree = "<group>"; };
+		F998F3DF22852E43008C2B59 /* TracksUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksUser.swift; sourceTree = "<group>"; };
 		F998F3E922853455008C2B59 /* Tracks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tracks-Bridging-Header.h"; sourceTree = "<group>"; };
 		F9A117B121E69B41002A5CD8 /* AutomatticTracks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutomatticTracks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A117B321E69B42002A5CD8 /* Automattic_Tracks_OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Automattic_Tracks_OSX.h; sourceTree = "<group>"; };
@@ -342,6 +342,7 @@
 				93C021351AB0BB100014096A /* TracksEvent.m */,
 				93771E361ACC58AC00B1E5FF /* TracksDeviceInformation.h */,
 				93771E371ACC58AC00B1E5FF /* TracksDeviceInformation.m */,
+				F998F3DF22852E43008C2B59 /* TracksUser.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -400,7 +401,6 @@
 			children = (
 				F998F3D922852CF0008C2B59 /* CrashLogging.swift */,
 				F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */,
-				F998F3DF22852E43008C2B59 /* CrashLoggingUser.swift */,
 			);
 			name = "Crash Logging";
 			sourceTree = "<group>";
@@ -425,7 +425,7 @@
 				93B5C7CD1CE25D7D002820B3 /* TracksLoggingPrivate.h in Headers */,
 				F998F3E3228532B0008C2B59 /* CrashLogging.swift in Headers */,
 				F998F3E4228532B0008C2B59 /* CrashLoggingDataProvider.swift in Headers */,
-				F998F3E5228532B0008C2B59 /* CrashLoggingUser.swift in Headers */,
+				F998F3E5228532B0008C2B59 /* TracksUser.swift in Headers */,
 				93B5C7CE1CE25D7D002820B3 /* TracksContextManager.h in Headers */,
 				93B5C7CF1CE25D7D002820B3 /* TracksEventCoreData.h in Headers */,
 				F978D1EE21AC972A00A2B169 /* WatchSessionManager.h in Headers */,
@@ -448,7 +448,7 @@
 				F9A117B921E69B57002A5CD8 /* TracksLoggingPrivate.h in Headers */,
 				F998F3E622853313008C2B59 /* CrashLogging.swift in Headers */,
 				F998F3E722853313008C2B59 /* CrashLoggingDataProvider.swift in Headers */,
-				F998F3E822853313008C2B59 /* CrashLoggingUser.swift in Headers */,
+				F998F3E822853313008C2B59 /* TracksUser.swift in Headers */,
 				F9A117D121E69B84002A5CD8 /* TracksLogging.h in Headers */,
 				F9A117CC21E69B70002A5CD8 /* WatchSessionManager.h in Headers */,
 				F9A117CA21E69B70002A5CD8 /* TracksServiceRemote.h in Headers */,
@@ -786,7 +786,7 @@
 				93B5C7C51CE25D66002820B3 /* TracksEvent.m in Sources */,
 				93B5C7C41CE25D66002820B3 /* TracksEventCoreData.m in Sources */,
 				93B5C7CC1CE25D66002820B3 /* TracksLogging.m in Sources */,
-				F998F3E022852E43008C2B59 /* CrashLoggingUser.swift in Sources */,
+				F998F3E022852E43008C2B59 /* TracksUser.swift in Sources */,
 				F998F3DA22852CF0008C2B59 /* CrashLogging.swift in Sources */,
 				93D77A511CE2640C009EDB38 /* Tracks.xcdatamodeld in Sources */,
 				93B5C7C81CE25D66002820B3 /* TracksEventService.m in Sources */,
@@ -835,7 +835,7 @@
 				F9A117BE21E69B62002A5CD8 /* TracksDeviceInformation.m in Sources */,
 				F9A117CB21E69B70002A5CD8 /* TracksServiceRemote.m in Sources */,
 				F9A117C521E69B70002A5CD8 /* TracksEventPersistenceService.m in Sources */,
-				F998F3E222852E57008C2B59 /* CrashLoggingUser.swift in Sources */,
+				F998F3E222852E57008C2B59 /* TracksUser.swift in Sources */,
 				F998F3DB22852CF0008C2B59 /* CrashLogging.swift in Sources */,
 				F9A117D221E69B84002A5CD8 /* TracksLogging.m in Sources */,
 				F9A117C321E69B6A002A5CD8 /* Tracks.xcdatamodeld in Sources */,
