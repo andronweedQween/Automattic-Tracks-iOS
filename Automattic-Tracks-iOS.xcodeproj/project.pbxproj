@@ -42,6 +42,9 @@
 		93B5C7DB1CE25D8E002820B3 /* TracksServiceRemoteIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C0213C1AB32BFA0014096A /* TracksServiceRemoteIntegrationTests.m */; };
 		93D77A511CE2640C009EDB38 /* Tracks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93AD39951AC713F20069344D /* Tracks.xcdatamodeld */; };
 		93D77A531CE26C43009EDB38 /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D77A521CE26C43009EDB38 /* Tracks.swift */; };
+		F920265E2295D2500061B1DE /* CrashLoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F920265D2295D2500061B1DE /* CrashLoggingTests.swift */; };
+		F92026602295D6DA0061B1DE /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F920265F2295D6DA0061B1DE /* TestHelpers.swift */; };
+		F92026642295E43B0061B1DE /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F920265F2295D6DA0061B1DE /* TestHelpers.swift */; };
 		F970F41E21E7BBD8000664D2 /* Automattic_Tracks_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F970F41D21E7BBD8000664D2 /* Automattic_Tracks_OSXTests.m */; };
 		F970F42021E7BBD8000664D2 /* AutomatticTracks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A117B121E69B41002A5CD8 /* AutomatticTracks.framework */; };
 		F970F42621E7BC82000664D2 /* TestTracksContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 931EE6CF1AD5A58D00E8711C /* TestTracksContextManager.m */; };
@@ -162,6 +165,8 @@
 		E3FE4C191B1B5ADE3C9B933E /* Pods_Automattic_Tracks_iOS_Automattic_Tracks_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Automattic_Tracks_iOS_Automattic_Tracks_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5AC0B7675B5EDB5F365B42 /* Pods-Automattic-Tracks-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automattic-Tracks-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Automattic-Tracks-iOS/Pods-Automattic-Tracks-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		EE21B1D105D31CDEFAD993FC /* Pods-Automattic-Tracks-iOS-Automattic-Tracks-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automattic-Tracks-iOS-Automattic-Tracks-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Automattic-Tracks-iOS-Automattic-Tracks-iOSTests/Pods-Automattic-Tracks-iOS-Automattic-Tracks-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F920265D2295D2500061B1DE /* CrashLoggingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLoggingTests.swift; sourceTree = "<group>"; };
+		F920265F2295D6DA0061B1DE /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		F970F41B21E7BBD8000664D2 /* Automattic_Tracks_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Automattic_Tracks_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F970F41D21E7BBD8000664D2 /* Automattic_Tracks_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Automattic_Tracks_OSXTests.m; sourceTree = "<group>"; };
 		F970F41F21E7BBD8000664D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -372,6 +377,7 @@
 				93C0213C1AB32BFA0014096A /* TracksServiceRemoteIntegrationTests.m */,
 				9349E9931D41148A00DDB5BB /* TracksServiceRemoteTests.swift */,
 				93F595521ABA01AE00280F9E /* TracksServiceTests.m */,
+				F920265D2295D2500061B1DE /* CrashLoggingTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 			children = (
 				F998F3D922852CF0008C2B59 /* CrashLogging.swift */,
 				F998F3DD22852E2A008C2B59 /* CrashLoggingDataProvider.swift */,
+				F920265F2295D6DA0061B1DE /* TestHelpers.swift */,
 			);
 			name = "Crash Logging";
 			sourceTree = "<group>";
@@ -791,6 +798,7 @@
 				93D77A511CE2640C009EDB38 /* Tracks.xcdatamodeld in Sources */,
 				93B5C7C81CE25D66002820B3 /* TracksEventService.m in Sources */,
 				93B5C7C61CE25D66002820B3 /* TracksDeviceInformation.m in Sources */,
+				F92026602295D6DA0061B1DE /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,6 +811,7 @@
 				93B5C7D81CE25D8E002820B3 /* TestTracksContextManager.m in Sources */,
 				9349E9941D41148A00DDB5BB /* TracksServiceRemoteTests.swift in Sources */,
 				93B5C7DB1CE25D8E002820B3 /* TracksServiceRemoteIntegrationTests.m in Sources */,
+				F920265E2295D2500061B1DE /* CrashLoggingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +849,7 @@
 				F9A117D221E69B84002A5CD8 /* TracksLogging.m in Sources */,
 				F9A117C321E69B6A002A5CD8 /* Tracks.xcdatamodeld in Sources */,
 				F9A117CF21E69B80002A5CD8 /* TracksConstants.m in Sources */,
+				F92026642295E43B0061B1DE /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
